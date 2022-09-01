@@ -11,7 +11,7 @@ body{
     background-color: white;
     border: 3px solid black;
     width: 700px;
-    height: 280px;
+    height: 300px;
     border-radius: 20px;
     margin: auto;
     padding: 25px;
@@ -34,4 +34,8 @@ body{
 .btn:hover {
     box-shadow: 0 0 5px #000;
     transition: box-shadow 200ms ease;
+}
+.quotes-icon {
+    font-size: 3rem;
+    
 }

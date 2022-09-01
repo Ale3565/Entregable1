@@ -12,6 +12,7 @@ function App() {
   }
   const userRandom = getRandomNumber(quotes);
   const colorRandom = getRandomNumber(colors)
+
   const [randomUser, setRandomUser] = useState(userRandom)
   const [randomColor, setRandomColor] = useState(colorRandom)
 
@@ -20,7 +21,9 @@ function App() {
   }
 
   const getAllRandom = () => {
-    setRandomUser(userRandom)
+    const userRandom = getRandomNumber(quotes);
+    const colorRandom = getRandomNumber(colors)
+    setRandomUser(userRandom);
     setRandomColor(colorRandom)
   }
   return (
